@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>krry_musicProject</display-name>
+  <servlet>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>com.krry.servlet.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.krry.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddUserInner</servlet-name>
+    <servlet-class>com.krry.servlet.AddUserInner</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResgServlet</servlet-name>
+    <servlet-class>com.krry.servlet.ResgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExitUserServlet</servlet-name>
+    <servlet-class>com.krry.servlet.ExitUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>com.krry.servlet.DeleteServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/AddUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserInner</servlet-name>
+    <url-pattern>/addUserInner</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResgServlet</servlet-name>
+    <url-pattern>/resgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExitUserServlet</servlet-name>
+    <url-pattern>/exitUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/deleteServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
